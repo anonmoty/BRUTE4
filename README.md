@@ -19,6 +19,7 @@ only education purpose
 
 ---
 
+<img width="1612" height="720" alt="Image" src="https://github.com/user-attachments/assets/0a63222d-571b-407a-8d95-90f9af221b7e" />
 ## ⚠️ Disclaimer
 
 > **This tool is a for educational purposes only.**
@@ -50,7 +51,7 @@ Perfect for:
 | 📝 **Hit Logging** | Saves successful matches to `hits.txt` |
 | 🔧 **Custom Wordlist** | Bring your own password list |
 | 🎨 **Colorful Output** | Clean terminal UI with `colorama` |
-| 🛡️ **Safe Simulation** | Runs against mock auth only |
+
 
 </div>
 
@@ -60,11 +61,13 @@ Perfect for:
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/anonmoty/brute-force-sim.git
-cd brute-force-sim
+pkg install python
+pkg install git
+git clone https://github.com/anonmoty/BRUTE4.git
+cd BRUTE4
 
 # 2. Install dependencies
-pip install -r requirements.txt
+pip install requests 
 
 # 3. Run the simulation
-python simulate.py --wordlist wordlist.txt --threads 10
+python BRUTE4.py
